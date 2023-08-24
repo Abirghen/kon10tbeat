@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1659,49 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+		/* Customizations */
+		/*nav {
+			margin-bottom:46px
+		}*/
+		#header nav ul li a {
+			min-width: 6.5rem;
+			padding: 0 1rem 0 1rem;
+			font-size: 0.7em;
+		}/*
+		#header nav {
+			position: relative;
+		}
+		.has-submenu .dropdown::after {
+			content: "";
+			width: 0;
+			height: 0;
+			border-width: 6px 5px;
+			border-style: solid;
+			border-color: #eee transparent transparent transparent;
+			position: absolute;
+			top: calc(50% - 3px);
+			margin-left:10px;
+		}
+
+		#header nav ul .submenu {
+			position: absolute;
+			left:0;
+			visibility: hidden;
+			pointer-events: none;
+			opacity: 0;
+			border-radius: 0;
+			text-wrap: nowrap;
+		}
+		#header nav ul .has-submenu:hover .submenu {
+			visibility: visible;
+			pointer-events: all;
+			opacity: 1;
+			transition: opacity 0.5s ease-in-out;
+		}
+		@media screen and (max-width: 1680px) {
+			.has-submenu .dropdown::after {
+				border-width: 4px 4px;
+				top: calc(50% - 2px);
+				margin-left: 8px;
+			}
+		}*/
